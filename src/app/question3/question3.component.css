@@ -1,0 +1,16 @@
+#userName{
+  width: 21ch;
+
+}
+#userName:focus.ng-valid {
+  border: green solid 5px;
+}
+#userName:focus.ng-invalid {
+  border: red solid 5px;
+}
+#userName.ng-valid {
+  border: green solid;
+}
+#userName.ng-invalid {
+  border: red solid;
+}

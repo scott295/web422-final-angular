@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./question3.component.css']
 })
 export class Question3Component implements OnInit {
+  userName:string="";
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
