@@ -1,0 +1,17 @@
+<p>Most recent added</p>
+<table class="table" id="recentAddListTable">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Date of added</th>
+    <th>Description</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let drug of recentAddList">
+    <td>{{drug.name}}</td>
+    <td>{{drug.date_added.toLocaleDateString()}}</td>
+    <td>{{drug.description}}</td>
+  </tr>
+  </tbody>
+</table>

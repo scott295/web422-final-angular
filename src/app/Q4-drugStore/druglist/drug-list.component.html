@@ -1,0 +1,22 @@
+<p>All drugs</p>
+<table class="table" id="drugListTable">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Date of added</th>
+    <th>Description</th>
+    <th>In stock</th>
+    <th>UUID</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let drug of drugList">
+    <td>{{drug.name}}</td>
+    <td>{{drug.date_added.toLocaleDateString()}}</td>
+    <td>{{drug.description}}</td>
+    <td *ngIf="drug.available_quantity>0">{{drug.available_quantity}}</td>
+    <td *ngIf="drug.available_quantity<=0">No</td>
+    <td>{{drug.UUID}}</td>
+  </tr>
+  </tbody>
+</table>

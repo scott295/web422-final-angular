@@ -1,6 +1,6 @@
 #userName{
   width: 21ch;
-
+  font-size: larger;
 }
 #userName:focus.ng-valid {
   border: green solid 5px;

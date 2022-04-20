@@ -296,18 +296,10 @@
   font-size: x-large;
 
 }
-.navbar{
-  grid-gap: 10pt;
-  grid-auto-flow: row;
+body{
+  height: 75vh;
+  font-size: 14pt;
+  text-align: center;
+  width: 120%;
+  /*border: black solid;*/
 }
-
-.navbar a{
-  padding: 20pt;
-  font-size: 16pt;
-  color: cornflowerblue;
-}
-
- body{
-   height: 75vh;
-   font-size: 14pt;
- }
